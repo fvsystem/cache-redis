@@ -1,5 +1,3 @@
-function soma(a: number, b: number): number {
-  return a + b;
-}
+import RedisCacheProvider from './provider/RedisCacheProvider';
 
-export default soma;
+export default RedisCacheProvider;

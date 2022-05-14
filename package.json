@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/fvsystem/cache-redis#readme",
   "devDependencies": {
+    "@types/debug": "^4.1.7",
     "@types/jest": "^27.5.1",
     "@typescript-eslint/eslint-plugin": "^5.23.0",
     "@typescript-eslint/parser": "^5.23.0",
@@ -38,5 +39,10 @@
     "ts-jest": "^28.0.2",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "@fvsystem/cache-template": "^0.0.3",
+    "debug": "^4.3.4",
+    "ioredis": "^5.0.4"
   }
 }
