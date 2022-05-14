@@ -4,7 +4,7 @@
   "description": "Redis implamentation for cache-template",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "build": "tsc",
     "prepublish": "tsc"
   },
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/fvsystem/cache-redis#readme",
   "devDependencies": {
+    "@types/jest": "^27.5.1",
     "@typescript-eslint/eslint-plugin": "^5.23.0",
     "@typescript-eslint/parser": "^5.23.0",
     "eslint": "^8.15.0",
@@ -32,7 +33,10 @@
     "eslint-import-resolver-typescript": "^2.7.1",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^28.1.0",
     "prettier": "2.6.2",
+    "ts-jest": "^28.0.2",
+    "ts-node": "^10.7.0",
     "typescript": "^4.6.4"
   }
 }
