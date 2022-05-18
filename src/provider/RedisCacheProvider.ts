@@ -2,7 +2,7 @@ import { CacheTemplate, Data, SaveOptions } from '@fvsystem/cache-template';
 import Redis, { RedisOptions } from 'ioredis';
 import debug from 'debug';
 
-const log = debug('fvsytem-template-cache');
+const log = debug('fvsystem-template-cache');
 
 export default class RedisCacheProvider implements CacheTemplate {
   private client: Redis;
