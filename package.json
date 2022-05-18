@@ -1,6 +1,6 @@
 {
   "name": "@fvsystem/cache-redis",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Redis implamentation for cache-template",
   "main": "dist/index.js",
   "scripts": {
@@ -41,8 +41,10 @@
     "typescript": "^4.6.4"
   },
   "dependencies": {
-    "@fvsystem/cache-template": "^0.0.3",
     "debug": "^4.3.4",
     "ioredis": "^5.0.4"
+  },
+  "peerDependencies": {
+    "@fvsystem/cache-template": "^0.0.3"
   }
 }
